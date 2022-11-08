@@ -5,7 +5,6 @@ Estilos visuales --> box-shadow, border-radius, gradient, etc.
 Otros --> misceláneos, reglas CSS y más.*/
 
 *{
-    font-family: 'Inter', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -97,4 +96,192 @@ Otros --> misceláneos, reglas CSS y más.*/
         height: 8px;
         margin-left: 1px;
         background-image: url("/iconos/Vector-3.svg");
+    }
+    .seccion-primera{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .seccion-primera figure {
+        width: 40vw;
+        height: 40vh;
+        align-self: center;
+        margin-top: 50px;
+    }
+    .seccion-primera figure img{
+        width: 100%;
+        height: 100%;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        background-color: var(--blanco-fuerte);
+        min-width: 320px;
+    }
+    .seccion-primera{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .seccion-primera h1{
+        font-size: 2.4rem;
+        font-weight: bold;
+        text-align: center;
+        line-height: 2.6rem;
+        color: var(--negro-normal);
+    }
+    .seccion-primera p{
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 1.4rem;
+        color: var(--gris);
+        line-height: 1.6rem;
+    }
+     main .main--primera-detabla .primera--titulo{
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 2.3rem;
+        color: var(--bitcoin-orange);
+    }
+
+    .main--primera-contenedor-detabla {
+        width: 70%;
+        min-width: 235px;
+        max-width: 500px;
+        height: 360px;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+    }
+    .main--primera-contenedor-detabla{
+       width: 90%;
+       min-width: 230px;
+       max-width: 300px;
+       height: 250px;
+       margin: 0 auto;
+    }
+    .main--primera-contenedor-detabla table{
+        width: 100%;
+        height: 100%;
+
+    }
+    .main--primera-contenedor-detabla td {
+        width: 50%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.9rem;
+        color: var(--gris);
+        background-color: var(--blanco);
+    }
+    .main--primera-contenedor-detabla .table__top-left{
+        border-radius: 15px 0 0;
+    }
+    .main--primera-contenedor-detabla .table__top-right{
+        border-radius:  0 15px 0 0;
+    }
+
+    .main--primera-contenedor-detabla .table__buttom-left{
+        border-radius:  0 0 0 15px ;
+    }
+    .main--primera-contenedor-detabla .table__bottom-right {
+        border-radius:  0 0 15px 0;
+    }
+
+    .main--primera-contenedor-detabla .table__right span{
+        display: inline-block;
+        background-image: url('/iconos/trending-down\ 1.svg');
+        width: 15px;
+        height: 15px;
+        background-size: cover;
+        margin-left: 10px;
+    }
+    .main--primera-contenedor-detabla .table--right span{
+        display: inline-block;
+        background-image: url('/iconos/trending-up\ 1.svg');
+        width: 15px;
+        height: 15px;
+        background-size: cover;
+        margin-left: 10px;
+    }
+
+    .main--primera-contenedor-detabla .table--date{
+        width: 250px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: var(--soft-orange);
+        border-radius: 8px;
+        align-self: center;
+    }
+
+    .main--primera-contenedor-detabla .table--date p{
+        margin: 7px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: var(--negro-plus);
+        position: relative;
+        bottom: 100%;
+        font-weight: 300;
+    }
+    .main--primera-contenedor-detabla .flecha-derecha{
+        display: inline-block;
+        background-image: url('/iconos/Vector-4.svg');
+        width: 20px;
+        height: 30px;
+        background-size: cover;
+        margin-left: 10px;
+        position: absolute;
+        right: 6vh;
+        bottom: -250px ;
+        z-index: 1;
+    }
+
+    .main--segundo-contenedor-detabla{
+        width: 90%;
+        min-width: 230px;
+        max-width: 300px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 50px;
+     }
+     .main--segundo-contenedor-detabla table{
+        width: 100%;
+        height: 100%;
+
+    }
+    .main--segundo-contenedor-detabla td {
+        width: 50%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.9rem;
+        color: var(--gris);
+        background-color: var(--blanco);
+    }
+    .main--segundo-contenedor-detabla .table--date{
+        width: 250px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: var(--azul-claro);
+        border-radius: 8px;
+        align-self: center;
+    }
+    .main--segundo-contenedor-detabla .table--date p{
+        margin: 7px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: var(--negro-plus);
+        position: relative;
+        bottom: 100%;
+        font-weight: 300;
+    }
+    .main--segundo-contenedor-detabla  #segundo--titulo{
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 2.3rem;
+        color: var(--azul-secundario);
     }
