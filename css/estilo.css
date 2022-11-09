@@ -34,7 +34,7 @@ Otros --> misceláneos, reglas CSS y más.*/
         min-width: 320px;
         height: 334px;
         text-align: center;
-        background: linear-gradient(207.8deg, var(--negro-normal) 16.69%, #F7931A 100%);```;
+        background: linear-gradient(207.8deg, var(--negro-normal) 16.69%, #F7931A 100%);
     }
     header figure {
         width: 150px;
@@ -138,6 +138,7 @@ Otros --> misceláneos, reglas CSS y más.*/
         color: var(--gris);
         line-height: 1.6rem;
     }
+
      main .main--primera-detabla .primera--titulo{
         margin-bottom: 15px;
         font-size: 1.8rem;
@@ -421,6 +422,8 @@ Otros --> misceláneos, reglas CSS y más.*/
         min-width: 320px;
         padding-bottom: 70px;
         text-align: center;
+        scroll-snap-align: center;
+
     }
     .planes-titulo{
         width: 90%;
@@ -524,4 +527,23 @@ Otros --> misceláneos, reglas CSS y más.*/
         overflow-x: scroll;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;
+    }
+    #tarjeta-basica{
+        background: linear-gradient(207.8deg, #F7931A 16.69%, yellow 100%);
+    }
+    #tarjeta-recomendado{
+        background: linear-gradient(207.8deg, #17e671 16.69%, green 100%);
+    }
+    #tarjeta-populares{
+        background: linear-gradient(207.8deg, var(--azul-secundario) 16.69%, blue 100%);
+    }
+    #primero{
+        border-color: #F7931A;
+
+    }
+    #mitad{
+        border-color: #17e671;
+    }
+    #ultimo{
+        border-color: #1A9AF7;
     }
